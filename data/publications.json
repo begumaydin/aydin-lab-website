@@ -1,0 +1,54 @@
+{
+  "publications": [
+    {
+      "citation": "Aydin, B.*, Mamede, I., Cardoso, J., Deere, J., Alvarez, Y., Qiao, S., Sharma, V.P., Scavuzzo, M.A., Donaldson, G.P., Guo, C.J., Mucida, D.* (2024). Gut bacteria-derived succinate induces enteric nervous system regeneration. bioRxiv.",
+      "note": "In revision. *Co-corresponding authors.",
+      "link": "https://doi.org/10.1101/2024.10.15.618589"
+    },
+    {
+      "citation": "Donaldson, G.P., Reis, G.L., Saad, M., Conceição, I.M.C.A., Chen, G., Delgaudio, N., Aydin, B., Harrer, C., Castro, T.B.R., Grivennikov, S., Stadtmueller, B.M., Reis, B.S., Victora, G.D., Mucida, D. (2023). Suppression of epithelial proliferation and tumorigenesis by Immunoglobulin A. bioRxiv.",
+      "note": "",
+      "link": ""
+    },
+    {
+      "citation": "Aydin, B., Sierk, M., Moreno-Estelles, M., Tejavibulya, L., Kumar, N., Flames, N., Mahony, S., Mazzoni, E. (2022). Foxa2 and Pet1 direct and indirect synergy drive serotonergic neuronal differentiation. Frontiers in Neuroscience, 16, 908.",
+      "note": "",
+      "link": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.903881/full"
+    },
+    {
+      "citation": "Garipler, G.*, Lu, C.*, Morrissey, A., Lopez-Zepeda, L.S., Vidal, S.E., Aydin, B., Stadtfeld, M., Ohler, U., Mahony, S., Sanjana, N.E., Mazzoni, E.O. (2022). The BTB transcription factors ZBTB11 and ZFP131 maintain pluripotency by repressing pro-differentiation genes. Cell Reports, 38, 110524.",
+      "note": "*Co-first authors.",
+      "link": ""
+    },
+    {
+      "citation": "Ahrends, T., Aydin, B., Matheis, F., Classon, C.H., Marchildon, F., Furtado, G.C., Lira, S.A., Mucida, D. (2021). Enteric pathogens induce tissue tolerance and prevent neuronal loss from subsequent infections. Cell, 184(23), 5715–5727.",
+      "note": "",
+      "link": ""
+    },
+    {
+      "citation": "Srivastava, D., Aydin, B., Mazzoni, E.O., Mahony, S. (2021). An interpretable bimodal neural network characterizes the sequence and preexisting chromatin predictors of induced transcription factor binding. Genome Biology, 22(1), 20.",
+      "note": "",
+      "link": ""
+    },
+    {
+      "citation": "Aydin, B., Mazzoni, E.O. (2019). Cell Reprogramming: The Many Roads to Success. Annual Review of Cell and Developmental Biology, 35(1), 1–20.",
+      "note": "",
+      "link": ""
+    },
+    {
+      "citation": "Aydin, B., Kakumanu, A., Rossillo, M., Moreno-Estelles, M., Garipler, G., Ringstad, N., Flames, N., Mahony, S., Mazzoni, E.O. (2019). Proneural factors Ascl1 and Neurog2 contribute to neuronal subtype identities by establishing distinct chromatin landscapes. Nature Neuroscience, 22(6), 897–908.",
+      "note": "",
+      "link": "https://www.nature.com/articles/s41593-019-0399-y"
+    },
+    {
+      "citation": "Velasco, S.*, Ibrahim, M.M.*, Kakumanu, A.*, Garipler, G., Aydin, B., Al-Sayegh, M.A., Hirsekorn, A., Farah, A.-R., Satija, R., Ohler, U., Mahony, S., Mazzoni, E.O. (2017). A multi-step transcriptional and chromatin state cascade underlies motor neuron programming from embryonic stem cells. Cell Stem Cell, 20(2), 205–217.e8.",
+      "note": "*Co-first authors.",
+      "link": ""
+    },
+    {
+      "citation": "Schulz, M.D.*, Atay, C.*, Heringer, J.*, Romrig, F.K., Schwitalla, S., Aydin, B., Ziegler, P.K., Varga, J., Reindl, W., Pommerenke, C., Sonnenberg-Riethmacher, G., Bock, A., Alpert, C., Blaut, M., Polson, S.C., Brandl, L., Kirchner, T., Greten, F.R., Polson, S.W., Arkan, M.C. (2014). High-fat-diet-mediated dysbiosis promotes intestinal carcinogenesis independently of obesity. Nature, 514(7523), 508–512.",
+      "note": "*Co-first authors.",
+      "link": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "people"
+    label: "People"
+    files:
+      - file: "data/people.json"
+        label: "Lab Members"
+        name: "people"
+        fields:
+          - label: "People"
+            name: "people"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role / Title", name: "role", widget: "string", hint: "e.g. Postdoctoral Fellow, Graduate Student, Cat" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
+              - { label: "Bio", name: "bio", widget: "text" }
+
+  - name: "publications"
+    label: "Publications"
+    files:
+      - file: "data/publications.json"
+        label: "Publications List"
+        name: "publications"
+        fields:
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            hint: "Add new papers at the TOP of the list so they show up first."
+            fields:
+              - { label: "Citation", name: "citation", widget: "text", hint: "Full formatted citation" }
+              - { label: "Note", name: "note", widget: "string", required: false, hint: "Optional, e.g. co-first authors, preprint status" }
+              - { label: "Link", name: "link", widget: "string", required: false, hint: "Optional, DOI or journal URL — shows a \"Read →\" link on the site" }

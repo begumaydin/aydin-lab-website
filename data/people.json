@@ -1,0 +1,16 @@
+{
+  "people": [
+    {
+      "name": "Begüm Aydin, Ph.D.",
+      "role": "Assistant Professor / Head of Lab",
+      "photo": "images/begum-aydin.jpg",
+      "bio": "Begüm is an Assistant Professor in the Department of Genetics and Development at Columbia University Irving Medical Center and a member of the Columbia Stem Cell Initiative. Her fascination with developmental neuroscience began at Boğaziçi University in Istanbul, where she earned her B.Sc. in Molecular Biology and Genetics. She carried that curiosity from Istanbul to New York City, where she began pursuing a question that has stayed with her ever since: how do neurons acquire their identity? During her Ph.D. in Biology at New York University with Esteban Mazzoni, Begüm studied the intrinsic developmental programs that control neuronal differentiation using embryonic stem cell models and functional genomics. As a postdoctoral fellow at The Rockefeller University with Daniel Mucida, she expanded this question to ask how the environment shapes nervous system development and identity, focusing on interactions between the gut microbiota and the enteric nervous system. Her work identified microbial species and signals that promote neuronal recovery, revealing an unexpected capacity for environmentally driven plasticity in the enteric nervous system and its potential relevance to neuronal regeneration more broadly.<br><br>Begüm's research has been recognized through her selection as a Junior Fellow of the Simons Society of Fellows by the Simons Foundation and as a Hanna H. Gray Fellow of the Howard Hughes Medical Institute, which supports her transition from postdoctoral training to leading an independent, interdisciplinary research program at Columbia. <a href=\"mailto:ba2855@cumc.columbia.edu\">e-mail</a> <a href=\"https://x.com/begum_aydin_\" target=\"_blank\" rel=\"noopener\" class=\"social-icon-link\" aria-label=\"Begüm Aydin on X\"><img src=\"images/icon-x.svg\" class=\"social-icon\" alt=\"X\"></a> <a href=\"https://bsky.app/profile/begumaydin.bsky.social\" target=\"_blank\" rel=\"noopener\" class=\"social-icon-link\" aria-label=\"Begüm Aydin on Bluesky\"><img src=\"images/icon-bluesky.svg\" class=\"social-icon\" alt=\"Bluesky\"></a>."
+    },
+    {
+      "name": "Zeny",
+      "role": "Cat",
+      "photo": "images/zeny.jpg",
+      "bio": "Honorary lab member. Oversees morale, occasionally sits on manuscripts."
+    }
+  ]
+}
