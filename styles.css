@@ -116,6 +116,7 @@ nav.wrap {
   list-style: none;
   justify-content: center;
 }
+.nav-links li { margin-bottom: 0; }
 .header-inner .nav-links { justify-content: flex-end; gap: 2.25rem; }
 
 @media (max-width: 720px) {
@@ -163,7 +164,6 @@ nav.wrap {
 .dropdown-menu a:hover, .dropdown-menu a.active {
   color: var(--orange-dark) !important;
   background: var(--paper-alt);
-}
 
 /* Inner pages (everything except home): purple header, tighter spacing */
 .inner-page header.site-header {
@@ -449,7 +449,7 @@ footer a:hover { color: var(--orange-dark); }
 
 @media (max-width: 720px) {
   h1 { font-size: 2rem; }
-  .hero { padding: 3rem 0 2.5rem; }
+  .hero { padding: 1.5rem 0 2rem; }
   .person-card { flex-direction: column; }
   .qa-grid { grid-template-columns: 1fr; }
   .pub-grid { grid-template-columns: 1fr; }
@@ -460,4 +460,9 @@ footer a:hover { color: var(--orange-dark); }
   .nav-links { gap: 1.25rem; }
   .dropdown-menu { position: static; box-shadow: none; background: transparent; padding-left: 1rem; }
   .dropdown-menu a { color: inherit !important; }
+  .banner .wrap { padding: 0.5rem 1rem; font-size: 0.8rem; gap: 0.3rem; }
+  .logo-row { padding-top: 0.25rem; }
+  .logo-row img { height: 76px; }
+  .header-tagline { font-size: 0.85rem; margin-top: -0.2rem; }
+  nav.wrap { padding-top: 0.3rem; padding-bottom: 0.5rem; }
 }
