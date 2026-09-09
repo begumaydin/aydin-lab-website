@@ -179,12 +179,12 @@ nav.wrap {
   color: var(--orange);
   border-bottom: 1px solid var(--orange);
 }
-.inner-page main { padding: 0.5rem 0 4.5rem; }
+.inner-page main { padding-top: 0.5rem; padding-bottom: 4.5rem; }
 .inner-page section { margin-bottom: 4rem; }
 .inner-page .hero.plain { padding: 1.75rem 0 0.25rem; margin-bottom: 0.5rem; }
 
 /* Contact, Publications, Lab Values: much less vertical padding — these pages run short */
-.page-tight main { padding: 0.5rem 0 1.5rem; }
+.page-tight main { padding-top: 0.5rem; padding-bottom: 1.5rem; }
 .page-tight section { margin-bottom: 2rem; }
 
 /* Bare hero: just an eyebrow label, no heading/lede — collapse it down to the label itself */
@@ -248,7 +248,7 @@ nav.wrap {
 .band a { color: white; text-decoration: underline; }
 
 /* ---------- Sections / cards ---------- */
-main { padding: 1.5rem 0 6rem; }
+main { padding-top: 1.5rem; padding-bottom: 6rem; }
 section { margin-bottom: 6rem; }
 section:last-child { margin-bottom: 0; }
 
@@ -307,6 +307,14 @@ section:last-child { margin-bottom: 0; }
 }
 .card:first-child { border-top: none; padding-top: 0; }
 
+.map-embed {
+  margin-top: 1.25rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.map-embed iframe { display: block; }
+
 /* ---------- Question / feature grid ---------- */
 .qa-grid {
   display: grid;
@@ -344,7 +352,7 @@ section:last-child { margin-bottom: 0; }
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   margin-top: 1.5rem;
-  text-align: left;
+  text-align: center;
 }
 .value-card {
   background: transparent;
@@ -352,8 +360,8 @@ section:last-child { margin-bottom: 0; }
   border-radius: 0;
   padding: 1.75rem 0 0;
 }
-.value-card h3 { color: var(--orange-dark); font-size: 1.15rem; margin-bottom: 0.6rem; text-align: left; }
-.value-card p { margin-bottom: 0; color: var(--ink); font-size: 1.02rem; text-align: left; }
+.value-card h3 { color: var(--orange-dark); font-size: 1.15rem; margin-bottom: 0.6rem; text-align: center; }
+.value-card p { margin-bottom: 0; color: var(--ink); font-size: 1.02rem; text-align: center; }
 
 /* ---------- Funding ---------- */
 .funding-grid {
@@ -361,12 +369,13 @@ section:last-child { margin-bottom: 0; }
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 3.25rem;
   margin-top: 0.5rem;
 }
 .funder-logo { max-height: 160px; max-width: 420px; width: auto; height: auto; }
 .funder-logo-simons { max-width: 240px; }
 .funder-logo-hhmi { max-height: 185px; }
+.funder-logo-columbia { max-width: 356px; }
 
 /* ---------- People ---------- */
 .person-card {
@@ -455,7 +464,9 @@ footer a:hover { color: var(--orange-dark); }
 @media (max-width: 720px) {
   h1 { font-size: 2rem; }
   .hero { padding: 1.5rem 0 2rem; }
-  .person-card { flex-direction: column; }
+  .person-card { flex-direction: column; align-items: center; text-align: center; }
+  .person-card .info { min-width: 0; width: 100%; }
+  .pub-list { text-align: center; }
   .qa-grid { grid-template-columns: 1fr; }
   .pub-grid { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
