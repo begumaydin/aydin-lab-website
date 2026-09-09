@@ -471,6 +471,7 @@ footer a:hover { color: var(--orange-dark); }
   .pub-grid { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
   .funding-grid { gap: 2rem; }
+  .funder-logo-columbia { max-width: 260px; }
   .band { padding: 2.5rem 0; }
   section { margin-bottom: 3rem; }
   .nav-links { gap: 0.9rem; }
